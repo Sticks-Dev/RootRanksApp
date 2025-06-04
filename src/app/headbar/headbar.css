@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headbar {
+    padding: 20px;
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+}
+
+.home_button {
+    font-family: Cambria, Georgia, Times, serif;
+    color: #ffe9c0 !important;
+    font-size: 100px;
+    border: 5px solid #6d5144;
+    background-color: #1e1815;
+    border-radius: 20px;
+}

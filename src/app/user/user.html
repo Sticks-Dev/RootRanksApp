@@ -1,0 +1,7 @@
+<section class="card">
+    <p class="username">{{user.username}}</p>
+    <p class="score" [ngClass]="GetClass(SortingMethod.Solo)">{{user.solo}}</p>
+    <p class="score" [ngClass]="GetClass(SortingMethod.Duo)">{{ user.duo }}</p>
+    <p class="score" [ngClass]="GetClass(SortingMethod.Trio)">{{ user.trio }}</p>
+    <p class="score" [ngClass]="GetClass(SortingMethod.Squad)">{{ user.squad }}</p>
+</section>

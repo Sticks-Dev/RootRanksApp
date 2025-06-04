@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    height: 50px;
+}
+
+button {
+    width: 100px;
+    border-radius: 10px;
+    font-size:20px;
+    color: #f5c7a9;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.active_button {
+    border: 3px solid #5e463b;
+    background-color: #3a2f29;
+}
+
+.inactive_button {
+    background-color: #455c45;
+    border: 3px solid #5ea05e;
+}

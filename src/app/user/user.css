@@ -1,0 +1,30 @@
+:host {
+    text-align: center;
+}
+
+.card {
+    background-color:#334e33;
+    border: 5px solid #459945;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding:10px;
+    width: 33.3%;
+}
+
+.username {
+    color: #ffe9c0
+}
+
+.score {
+    color: #d8ac83
+}
+
+.active_score {
+    display: block;
+}
+
+.inactive_score {
+    display: none;
+}

@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+.leaderboard {
+    margin-top: 25px;
+    overflow-x: none;
+    overflow-y: scroll;
+    min-height: 200px;
+    max-height: 63.85vh;
+    width: 100%;
+    
+    scrollbar-width: none;
+}

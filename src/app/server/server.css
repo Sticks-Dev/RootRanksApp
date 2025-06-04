@@ -1,0 +1,37 @@
+:host {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    color: #ffffff !important;
+    display: inline-block;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    min-width: none;
+    height: 40px;
+
+    border: 3px solid #5e463b;
+    background-color: #3a2f29;
+    border-radius: 10px;
+}
+
+.button_full {
+    width:fit-content;
+}
+
+.button_large {
+    text-overflow: none;
+    overflow: none;
+    max-width: 150px;
+    width: fit-content;
+}
+
+.button_small {
+    max-width: 80px;
+    width: fit-content;
+}

@@ -1,0 +1,3 @@
+<section class="leaderboard">
+    <app-user *ngFor="let user of user_data trackBy: TrackByUsername" [user]="user" [sorter]="sorter"></app-user>
+</section>

@@ -1,0 +1,143 @@
+{
+    "Servers": [
+        {
+            "serverName": "Sticks",
+            "serverID": 1202893789765705768,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "Ranked Elements Divided",
+            "serverID": 1367620508627112016,
+            "userData": [
+                {
+                    "username": "Andesite",
+                    "solo": 400,
+                    "duo": 900,
+                    "trio": 1200,
+                    "squad": 1000
+                },
+                {
+                    "username": "Sticks",
+                    "solo": 1000,
+                    "duo": 20,
+                    "trio": 1600,
+                    "squad": 400
+                },
+                {
+                    "username": "Gravel",
+                    "solo": 855,
+                    "duo": 110,
+                    "trio": 508,
+                    "squad": 489
+                },
+                {
+                    "username": "Cobble",
+                    "solo": 800,
+                    "duo": 800,
+                    "trio": 708,
+                    "squad": 989
+                },
+                {
+                    "username": "Pebbles",
+                    "solo": 876,
+                    "duo": 100,
+                    "trio": 1087,
+                    "squad": 287
+                },
+                {
+                    "username": "Stones",
+                    "solo": 950,
+                    "duo": 1750,
+                    "trio": 1088,
+                    "squad": 1000
+                },
+                {
+                    "username": "Boulders",
+                    "solo": 900,
+                    "duo": 1100,
+                    "trio": 708,
+                    "squad": 1076
+                },
+                {
+                    "username": "Graphite",
+                    "solo": 400,
+                    "duo": 700,
+                    "trio": 1434,
+                    "squad": 1000
+                },
+                {
+                    "username": "Lead",
+                    "solo": 1283,
+                    "duo": 758,
+                    "trio": 1492,
+                    "squad": 853
+                },
+                {
+                    "username": "Iron",
+                    "solo": 1137,
+                    "duo": 820,
+                    "trio": 926,
+                    "squad": 672
+                }
+            ]
+        },
+        {
+            "serverName": "Chraazy Recordings",
+            "serverID": 781657085974855762,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "Platformers Paradise",
+            "serverID": 1219869156992880700,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "Official OneTopic Server",
+            "serverID": 1099246146318254160,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "The Clique",
+            "serverID": 460806595803217932,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "UWW Game And Media Entertainment Developers",
+            "serverID": 623262736393961483,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "MAGD UWW",
+            "serverID": 678390639968387114,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "MAGD 488 F23",
+            "serverID": 1130577990611390634,
+            "userData": [
+                
+            ]
+        },
+        {
+            "serverName": "MAGD 488 SP23",
+            "serverID": 1067288942367486032,
+            "userData": [
+                
+            ]
+        }
+    ]
+}

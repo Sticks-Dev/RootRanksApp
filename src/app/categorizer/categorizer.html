@@ -1,0 +1,8 @@
+<section class="form">
+    <form>
+        <button type="button" (click)="OnButtonClick(SortingMethod.Solo)" [ngClass]="GetButtonStatus(SortingMethod.Solo)">Solo</button>
+        <button type="button" (click)="OnButtonClick(SortingMethod.Duo)" [ngClass]="GetButtonStatus(SortingMethod.Duo)">Duo</button>
+        <button type="button" (click)="OnButtonClick(SortingMethod.Trio)" [ngClass]="GetButtonStatus(SortingMethod.Trio)">Trio</button>
+        <button type="button" (click)="OnButtonClick(SortingMethod.Squad)" [ngClass]="GetButtonStatus(SortingMethod.Squad)">Squad</button>
+    </form>
+</section>

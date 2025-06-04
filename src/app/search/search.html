@@ -1,0 +1,8 @@
+<section class="container">
+    <input name="search" type="text" placeholder="Enter server name to narrow results" class="search" #filter
+        (input)="filterServers(filter.value)" autocomplete="off"/>
+    <section class="results">
+        <app-server *ngFor="let serverData of filteredServerList" [serverData]="serverData" [searchComponent]="this">
+        </app-server>
+    </section>
+</section>
