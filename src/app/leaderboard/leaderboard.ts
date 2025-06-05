@@ -7,7 +7,8 @@ import { Sorter } from '../Sorter';
 import { UserData } from '../UserData';
 import { Search } from '../search/search';
 import { Input } from '@angular/core';
-import { Handler } from '../Sorter'
+import { EventArgs, EventManager } from '../EventManager';
+import { ResortArgs } from '../categorizer/categorizer';
 
 @Component({
   selector: 'app-leaderboard',
@@ -33,12 +34,18 @@ export class Leaderboard implements OnInit {
             this.user_data = this.user_data = user_data;
             this.SortUsers(SortingPriority.Solo)
         });
-        const handler: Handler = this.SortUsers.bind(this);
-        this.sorter.AddHandler(handler)
+        EventManager.AddHandler(ResortArgs, (args: EventArgs) => {
+            if (!(args instanceof ResortArgs)) {
+                console.error("EventManager received an event that is not a ResortArgs instance.");
+                return;
+            }
+            this.SortUsers(args.priority);
+            this.currentPriority = args.priority;
+        });
     }
 
     SortUsers(priority: SortingPriority): void {
-        this.user_data = Sorter.MergeSort(priority, this.user_data)
+        this.user_data = Sorter.Sort(priority, this.user_data)
     }
 
     async GetUserData(): Promise<UserData[]> {

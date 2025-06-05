@@ -17,7 +17,7 @@ export class User {
     SortingMethod = SortingPriority;
 
     GetClass(sort: SortingPriority): string {
-        if (sort === this.sorter.priority)
+        if (sort === Sorter.priority)
             return 'active_score'
         return 'inactive_score'
     }

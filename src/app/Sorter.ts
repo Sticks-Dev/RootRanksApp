@@ -1,7 +1,5 @@
 import { UserData } from "./UserData";
 
-export type Handler = (priority: SortingPriority) => void;
-
 export enum SortingPriority {
     Solo = 'solo',
     Duo = 'duo',
@@ -10,6 +8,13 @@ export enum SortingPriority {
 }
 
 export class Sorter {
+    static priority: SortingPriority = SortingPriority.Solo;
+
+    static Sort(priority: SortingPriority, users: (UserData|undefined)[]): UserData[] {
+        this.priority = priority;
+        return this.MergeSort(priority, users);
+    }
+    
     static MergeSort(priority: SortingPriority, users: (UserData|undefined)[]): UserData[] {
         let a = users.slice(0, users.length/2) as UserData[]
         let b = users.slice(users.length/2, users.length) as UserData[]
@@ -41,26 +46,5 @@ export class Sorter {
         }
         
         return users as UserData[];
-    }
-    priority: SortingPriority = SortingPriority.Solo;
-
-    handlers: Handler[] = [];
-
-    AddHandler(handler: Handler) {
-        this.handlers[this.handlers.length] = handler;
-    }
-
-    RemoveHandler(handler: Handler) {
-        for (let i: number = 0; i < this.handlers.length; i++) {
-            if (this.handlers[i] === handler) 
-                this.handlers.splice(i, 1);
-        }
-    }
-
-    ExecuteHandlers(priority: SortingPriority) {
-        this.handlers.forEach(handler => {
-            handler(priority);
-        });
-        this.priority = priority;
     }
 }
