@@ -1,143 +1,862 @@
 {
     "Servers": [
-        {
-            "serverName": "Sticks",
-            "serverID": 1202893789765705768,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "Ranked Elements Divided",
-            "serverID": 1367620508627112016,
-            "userData": [
-                {
-                    "username": "Andesite",
-                    "solo": 400,
-                    "duo": 900,
-                    "trio": 1200,
-                    "squad": 1000
-                },
-                {
-                    "username": "Sticks",
-                    "solo": 1000,
-                    "duo": 20,
-                    "trio": 1600,
-                    "squad": 400
-                },
-                {
-                    "username": "Gravel",
-                    "solo": 855,
-                    "duo": 110,
-                    "trio": 508,
-                    "squad": 489
-                },
-                {
-                    "username": "Cobble",
-                    "solo": 800,
-                    "duo": 800,
-                    "trio": 708,
-                    "squad": 989
-                },
-                {
-                    "username": "Pebbles",
-                    "solo": 876,
-                    "duo": 100,
-                    "trio": 1087,
-                    "squad": 287
-                },
-                {
-                    "username": "Stones",
-                    "solo": 950,
-                    "duo": 1750,
-                    "trio": 1088,
-                    "squad": 1000
-                },
-                {
-                    "username": "Boulders",
-                    "solo": 900,
-                    "duo": 1100,
-                    "trio": 708,
-                    "squad": 1076
-                },
-                {
-                    "username": "Graphite",
-                    "solo": 400,
-                    "duo": 700,
-                    "trio": 1434,
-                    "squad": 1000
-                },
-                {
-                    "username": "Lead",
-                    "solo": 1283,
-                    "duo": 758,
-                    "trio": 1492,
-                    "squad": 853
-                },
-                {
-                    "username": "Iron",
-                    "solo": 1137,
-                    "duo": 820,
-                    "trio": 926,
-                    "squad": 672
-                }
-            ]
-        },
-        {
-            "serverName": "Chraazy Recordings",
-            "serverID": 781657085974855762,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "Platformers Paradise",
-            "serverID": 1219869156992880700,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "Official OneTopic Server",
-            "serverID": 1099246146318254160,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "The Clique",
-            "serverID": 460806595803217932,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "UWW Game And Media Entertainment Developers",
-            "serverID": 623262736393961483,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "MAGD UWW",
-            "serverID": 678390639968387114,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "MAGD 488 F23",
-            "serverID": 1130577990611390634,
-            "userData": [
-                
-            ]
-        },
-        {
-            "serverName": "MAGD 488 SP23",
-            "serverID": 1067288942367486032,
-            "userData": [
-                
-            ]
-        }
+      {
+        "serverName": "Sticks",
+        "serverID": 1202893789765705768,
+        "userData": [
+          {
+            "username": "PixelProwler",
+            "solo": 1250,
+            "duo": 870,
+            "trio": 1500,
+            "squad": 1100
+          },
+          {
+            "username": "CodeNinja",
+            "solo": 1800,
+            "duo": 1050,
+            "trio": 950,
+            "squad": 1700
+          },
+          {
+            "username": "DataDiver",
+            "solo": 600,
+            "duo": 1200,
+            "trio": 750,
+            "squad": 900
+          },
+          {
+            "username": "LogicLeap",
+            "solo": 1400,
+            "duo": 700,
+            "trio": 1150,
+            "squad": 1300
+          },
+          {
+            "username": "CircuitSage",
+            "solo": 950,
+            "duo": 1600,
+            "trio": 1000,
+            "squad": 800
+          },
+          {
+            "username": "ByteBard",
+            "solo": 1100,
+            "duo": 900,
+            "trio": 1300,
+            "squad": 1500
+          },
+          {
+            "username": "ScriptSpectre",
+            "solo": 700,
+            "duo": 1400,
+            "trio": 850,
+            "squad": 1050
+          },
+          {
+            "username": "GizmoGuru",
+            "solo": 1650,
+            "duo": 750,
+            "trio": 1200,
+            "squad": 1900
+          },
+          {
+            "username": "QuantumQuill",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1800,
+            "squad": 900
+          },
+          {
+            "username": "DigitalDreamer",
+            "solo": 800,
+            "duo": 1300,
+            "trio": 600,
+            "squad": 1400
+          },
+          {
+            "username": "NetworkNomad",
+            "solo": 1350,
+            "duo": 950,
+            "trio": 1700,
+            "squad": 1150
+          },
+          {
+            "username": "TechTitan",
+            "solo": 1900,
+            "duo": 1000,
+            "trio": 1100,
+            "squad": 1800
+          }
+        ]
+      },
+      {
+        "serverName": "Ranked Elements Divided",
+        "serverID": 1367620508627112016,
+        "userData": [
+          {
+            "username": "Andesite",
+            "solo": 400,
+            "duo": 900,
+            "trio": 1200,
+            "squad": 1000
+          },
+          {
+            "username": "IEatRocks",
+            "solo": 1000,
+            "duo": 20,
+            "trio": 1600,
+            "squad": 400
+          },
+          {
+            "username": "Gravel",
+            "solo": 855,
+            "duo": 110,
+            "trio": 508,
+            "squad": 489
+          },
+          {
+            "username": "Cobble",
+            "solo": 800,
+            "duo": 800,
+            "trio": 708,
+            "squad": 989
+          },
+          {
+            "username": "Pebbles",
+            "solo": 876,
+            "duo": 100,
+            "trio": 1087,
+            "squad": 287
+          },
+          {
+            "username": "Stones",
+            "solo": 950,
+            "duo": 1750,
+            "trio": 1088,
+            "squad": 1000
+          },
+          {
+            "username": "Boulders",
+            "solo": 900,
+            "duo": 1100,
+            "trio": 708,
+            "squad": 1076
+          },
+          {
+            "username": "Graphite",
+            "solo": 400,
+            "duo": 700,
+            "trio": 1434,
+            "squad": 1000
+          },
+          {
+            "username": "Lead",
+            "solo": 1283,
+            "duo": 758,
+            "trio": 1492,
+            "squad": 853
+          },
+          {
+            "username": "Iron",
+            "solo": 1137,
+            "duo": 820,
+            "trio": 926,
+            "squad": 672
+          }
+        ]
+      },
+      {
+        "serverName": "Chraazy Recordings",
+        "serverID": 781657085974855762,
+        "userData": [
+          {
+            "username": "AquaKnight",
+            "solo": 800,
+            "duo": 1200,
+            "trio": 1000,
+            "squad": 900
+          },
+          {
+            "username": "BlazeRunner",
+            "solo": 1500,
+            "duo": 700,
+            "trio": 1300,
+            "squad": 1600
+          },
+          {
+            "username": "CrimsonCap",
+            "solo": 650,
+            "duo": 1400,
+            "trio": 850,
+            "squad": 1100
+          },
+          {
+            "username": "DawnStriker",
+            "solo": 1700,
+            "duo": 900,
+            "trio": 1500,
+            "squad": 1200
+          },
+          {
+            "username": "EchoPhantom",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1600,
+            "squad": 750
+          },
+          {
+            "username": "FrostFencer",
+            "solo": 1200,
+            "duo": 800,
+            "trio": 900,
+            "squad": 1400
+          },
+          {
+            "username": "GaleGuardian",
+            "solo": 700,
+            "duo": 1500,
+            "trio": 1050,
+            "squad": 1300
+          },
+          {
+            "username": "HazelHawk",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1200,
+            "squad": 1700
+          },
+          {
+            "username": "IndigoImpulse",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "JadeJester",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "KestrelKing",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1700,
+            "squad": 1000
+          },
+          {
+            "username": "LuminLord",
+            "solo": 1900,
+            "duo": 850,
+            "trio": 1250,
+            "squad": 1650
+          },
+          {
+            "username": "MysticMage",
+            "solo": 750,
+            "duo": 1600,
+            "trio": 950,
+            "squad": 1200
+          }
+        ]
+      },
+      {
+        "serverName": "Platformers Paradise",
+        "serverID": 1219869156992880700,
+        "userData": [
+          {
+            "username": "ZenithZephyr",
+            "solo": 1000,
+            "duo": 1500,
+            "trio": 800,
+            "squad": 1200
+          },
+          {
+            "username": "VortexViper",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1600,
+            "squad": 1100
+          },
+          {
+            "username": "TwilightTrekker",
+            "solo": 700,
+            "duo": 1200,
+            "trio": 1000,
+            "squad": 1400
+          },
+          {
+            "username": "StarShaper",
+            "solo": 1600,
+            "duo": 800,
+            "trio": 1300,
+            "squad": 1700
+          },
+          {
+            "username": "RuneRider",
+            "solo": 900,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "QuasarQueen",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "PixelPhoenix",
+            "solo": 1400,
+            "duo": 700,
+            "trio": 1200,
+            "squad": 1300
+          },
+          {
+            "username": "NovaNavigator",
+            "solo": 800,
+            "duo": 1300,
+            "trio": 600,
+            "squad": 1400
+          },
+          {
+            "username": "LunarLynx",
+            "solo": 1700,
+            "duo": 950,
+            "trio": 1500,
+            "squad": 1250
+          },
+          {
+            "username": "CosmicComet",
+            "solo": 1250,
+            "duo": 870,
+            "trio": 1500,
+            "squad": 1100
+          },
+          {
+            "username": "NebulaNomad",
+            "solo": 1800,
+            "duo": 1050,
+            "trio": 950,
+            "squad": 1700
+          },
+          {
+            "username": "SolarSorcerer",
+            "solo": 600,
+            "duo": 1200,
+            "trio": 750,
+            "squad": 900
+          }
+        ]
+      },
+      {
+        "serverName": "Official OneTopic Server",
+        "serverID": 1099246146318254160,
+        "userData": [
+          {
+            "username": "DeepDrifter",
+            "solo": 1100,
+            "duo": 900,
+            "trio": 1500,
+            "squad": 1200
+          },
+          {
+            "username": "AzureAura",
+            "solo": 1600,
+            "duo": 700,
+            "trio": 1000,
+            "squad": 1400
+          },
+          {
+            "username": "CoralClaw",
+            "solo": 850,
+            "duo": 1400,
+            "trio": 1100,
+            "squad": 950
+          },
+          {
+            "username": "OceanOracle",
+            "solo": 1300,
+            "duo": 1100,
+            "trio": 1600,
+            "squad": 1000
+          },
+          {
+            "username": "ReefRanger",
+            "solo": 700,
+            "duo": 1500,
+            "trio": 800,
+            "squad": 1300
+          },
+          {
+            "username": "TideTamer",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1200,
+            "squad": 1700
+          },
+          {
+            "username": "WaveWarden",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "LagoonLegend",
+            "solo": 1000,
+            "duo": 1200,
+            "trio": 1300,
+            "squad": 1500
+          },
+          {
+            "username": "SeagrassSamurai",
+            "solo": 1400,
+            "duo": 800,
+            "trio": 1700,
+            "squad": 1100
+          },
+          {
+            "username": "DriftwoodDuo",
+            "solo": 600,
+            "duo": 1300,
+            "trio": 750,
+            "squad": 900
+          },
+          {
+            "username": "HarborHero",
+            "solo": 1900,
+            "duo": 1000,
+            "trio": 1100,
+            "squad": 1800
+          }
+        ]
+      },
+      {
+        "serverName": "The Clique",
+        "serverID": 460806595803217932,
+        "userData": [
+          {
+            "username": "PeakPilgrim",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1500,
+            "squad": 1200
+          },
+          {
+            "username": "SummitSeeker",
+            "solo": 1800,
+            "duo": 900,
+            "trio": 1300,
+            "squad": 1700
+          },
+          {
+            "username": "CliffClimber",
+            "solo": 700,
+            "duo": 1400,
+            "trio": 850,
+            "squad": 1100
+          },
+          {
+            "username": "RidgeRunner",
+            "solo": 1600,
+            "duo": 800,
+            "trio": 1200,
+            "squad": 1500
+          },
+          {
+            "username": "ValleyVagabond",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "GorgeGazer",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "BoulderBreaker",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1700,
+            "squad": 1000
+          },
+          {
+            "username": "CanyonCrawler",
+            "solo": 1900,
+            "duo": 850,
+            "trio": 1250,
+            "squad": 1650
+          },
+          {
+            "username": "MesaMarauder",
+            "solo": 750,
+            "duo": 1600,
+            "trio": 950,
+            "squad": 1200
+          },
+          {
+            "username": "HighlanderHero",
+            "solo": 1250,
+            "duo": 870,
+            "trio": 1500,
+            "squad": 1100
+          }
+        ]
+      },
+      {
+        "serverName": "UWW Game And Media Entertainment Developers",
+        "serverID": 623262736393961483,
+        "userData": [
+          {
+            "username": "ForestFighter",
+            "solo": 900,
+            "duo": 1200,
+            "trio": 1000,
+            "squad": 1100
+          },
+          {
+            "username": "GroveGuardian",
+            "solo": 1500,
+            "duo": 700,
+            "trio": 1300,
+            "squad": 1600
+          },
+          {
+            "username": "BranchBrave",
+            "solo": 650,
+            "duo": 1400,
+            "trio": 850,
+            "squad": 1100
+          },
+          {
+            "username": "ThornTracker",
+            "solo": 1700,
+            "duo": 900,
+            "trio": 1500,
+            "squad": 1200
+          },
+          {
+            "username": "LeafLegend",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1600,
+            "squad": 750
+          },
+          {
+            "username": "RootRacer",
+            "solo": 1200,
+            "duo": 800,
+            "trio": 900,
+            "squad": 1400
+          },
+          {
+            "username": "MossMystic",
+            "solo": 700,
+            "duo": 1500,
+            "trio": 1050,
+            "squad": 1300
+          },
+          {
+            "username": "TimberTitan",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1200,
+            "squad": 1700
+          },
+          {
+            "username": "CanopyKing",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "WildwoodWarrior",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "FernPhantom",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1700,
+            "squad": 1000
+          },
+          {
+            "username": "ShadeSlayer",
+            "solo": 1900,
+            "duo": 850,
+            "trio": 1250,
+            "squad": 1650
+          }
+        ]
+      },
+      {
+        "serverName": "MAGD UWW",
+        "serverID": 678390639968387114,
+        "userData": [
+          {
+            "username": "UrbanUprising",
+            "solo": 1200,
+            "duo": 800,
+            "trio": 1400,
+            "squad": 1100
+          },
+          {
+            "username": "CitySentinel",
+            "solo": 1700,
+            "duo": 1000,
+            "trio": 900,
+            "squad": 1600
+          },
+          {
+            "username": "NeonNinja",
+            "solo": 700,
+            "duo": 1300,
+            "trio": 850,
+            "squad": 1000
+          },
+          {
+            "username": "SkyscraperStriker",
+            "solo": 1500,
+            "duo": 750,
+            "trio": 1200,
+            "squad": 1400
+          },
+          {
+            "username": "AlleyAvenger",
+            "solo": 900,
+            "duo": 1600,
+            "trio": 1100,
+            "squad": 800
+          },
+          {
+            "username": "RooftopRogue",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1500,
+            "squad": 1250
+          },
+          {
+            "username": "MetroManiac",
+            "solo": 800,
+            "duo": 1400,
+            "trio": 700,
+            "squad": 950
+          },
+          {
+            "username": "StreetSpecter",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1300,
+            "squad": 1700
+          },
+          {
+            "username": "DistrictDefender",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1000,
+            "squad": 850
+          },
+          {
+            "username": "BoulevardBlaster",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "ConcreteCommando",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1700,
+            "squad": 1000
+          },
+          {
+            "username": "TowerTitan",
+            "solo": 1900,
+            "duo": 850,
+            "trio": 1250,
+            "squad": 1650
+          }
+        ]
+      },
+      {
+        "serverName": "MAGD 488 F23",
+        "serverID": 1130577990611390634,
+        "userData": [
+          {
+            "username": "DesertDrifter",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1500,
+            "squad": 1200
+          },
+          {
+            "username": "OasisOracle",
+            "solo": 1600,
+            "duo": 700,
+            "trio": 1100,
+            "squad": 1400
+          },
+          {
+            "username": "DuneDancer",
+            "solo": 850,
+            "duo": 1400,
+            "trio": 950,
+            "squad": 1050
+          },
+          {
+            "username": "MirageMaster",
+            "solo": 1300,
+            "duo": 1100,
+            "trio": 1600,
+            "squad": 1000
+          },
+          {
+            "username": "CactusCrusher",
+            "solo": 700,
+            "duo": 1500,
+            "trio": 800,
+            "squad": 1300
+          },
+          {
+            "username": "SandstormSorcerer",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1200,
+            "squad": 1700
+          },
+          {
+            "username": "ScorpionStriker",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1100,
+            "squad": 850
+          },
+          {
+            "username": "SunfireSeeker",
+            "solo": 1000,
+            "duo": 1200,
+            "trio": 1300,
+            "squad": 1500
+          },
+          {
+            "username": "VultureVanguard",
+            "solo": 1400,
+            "duo": 800,
+            "trio": 1700,
+            "squad": 1100
+          },
+          {
+            "username": "DustDevilDynamo",
+            "solo": 600,
+            "duo": 1300,
+            "trio": 750,
+            "squad": 900
+          }
+        ]
+      },
+      {
+        "serverName": "MAGD 488 SP23",
+        "serverID": 1067288942367486032,
+        "userData": [
+          {
+            "username": "ArcticAce",
+            "solo": 1200,
+            "duo": 900,
+            "trio": 1500,
+            "squad": 1100
+          },
+          {
+            "username": "BlizzardBrave",
+            "solo": 1700,
+            "duo": 1000,
+            "trio": 900,
+            "squad": 1600
+          },
+          {
+            "username": "GlacierGlide",
+            "solo": 700,
+            "duo": 1300,
+            "trio": 850,
+            "squad": 1000
+          },
+          {
+            "username": "IcebergInnovator",
+            "solo": 1500,
+            "duo": 750,
+            "trio": 1200,
+            "squad": 1400
+          },
+          {
+            "username": "PolarProwler",
+            "solo": 900,
+            "duo": 1600,
+            "trio": 1100,
+            "squad": 800
+          },
+          {
+            "username": "SnowflakeSpectre",
+            "solo": 1000,
+            "duo": 1100,
+            "trio": 1500,
+            "squad": 1250
+          },
+          {
+            "username": "TundraTracker",
+            "solo": 800,
+            "duo": 1400,
+            "trio": 700,
+            "squad": 950
+          },
+          {
+            "username": "PermafrostPaladin",
+            "solo": 1800,
+            "duo": 600,
+            "trio": 1300,
+            "squad": 1700
+          },
+          {
+            "username": "AuroraAvenger",
+            "solo": 950,
+            "duo": 1700,
+            "trio": 1000,
+            "squad": 850
+          },
+          {
+            "username": "FrostbiteFighter",
+            "solo": 1100,
+            "duo": 1000,
+            "trio": 1400,
+            "squad": 1500
+          },
+          {
+            "username": "WinterWhisperer",
+            "solo": 1300,
+            "duo": 900,
+            "trio": 1700,
+            "squad": 1000
+          },
+          {
+            "username": "ChillingChampion",
+            "solo": 1900,
+            "duo": 850,
+            "trio": 1250,
+            "squad": 1650
+          }
+        ]
+      }
     ]
-}
+  }
