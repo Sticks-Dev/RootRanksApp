@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { SortingPriority } from '../Sorter';
 import { Sorter } from '../Sorter';
 import { UserData } from '../UserData';
-import { ServerData } from '../ServerData';
+import { Search } from '../search/search';
 import { Input } from '@angular/core';
 import { Handler } from '../Sorter'
 
@@ -42,26 +42,13 @@ export class Leaderboard implements OnInit {
     }
 
     async GetUserData(): Promise<UserData[]> {
-        const servers = await this.GetServerData()
-        if (servers == null)
+        const servers = Search.serverList;
+        if (servers == null || servers.length === 0)
             return [];
         const server_data = servers.find(server => server.serverID === this.server_id)
         if (server_data == null)
             return [];
         return server_data.userData;
-    }
-
-    async GetServerData(): Promise<ServerData[]> {
-        const url: string = 'http://localhost:3000/Servers';
-        try {
-            const response = await fetch(url);
-            if (!response.ok)
-                throw new Error(`HTTP error! status: ${response.status}`);
-            return await response.json() as ServerData[];
-        } catch (error) {
-            console.error("Error fetching server data:", error);
-            return [];
-        }
     }
 
     TrackByUsername(index: number, userData: UserData) {
