@@ -20,23 +20,16 @@ export class Server {
 
     hovered: boolean = false;
 
-    getButtonSizeClass(): string {
-        if (this.searchComponent.filteredServerList.length == 1)
-            return 'button_full'
-        if (this.searchComponent.filteredServerList.length < this.searchComponent.SMALL_BUTTON_THRESHOLD)
-            return 'button_large';
-        return 'button_small';
-    }
 
     @HostListener('mouseover')
     onMouseOver() {
         this.hovered = true;
-        this.searchComponent.FilterServers(this.serverData.serverName);
+        // this.searchComponent.FilterServers(this.serverData.serverName);
     }
 
     @HostListener('mouseout')
     onMouseOut() {
         this.hovered = false;
-        this.searchComponent.FilterServers('');
+        // this.searchComponent.FilterServers('');
     }
 }

@@ -10,7 +10,7 @@ export const fadeInAnimation = trigger('fadeIn', [
 export const expandOnHoverAnimation =
     trigger(
         'expandOnHover', [
-            state('initial', style({ width: '100px' })),
-            state('expanded', style({ width: '500px' })),
-            transition('initial <=> expanded', animate('300ms')),
+            state('initial', style({ width: '7.5%' })),
+            state('expanded', style({ width: '12.5%' })),
+            transition('* <=> *', animate('300ms ease-in-out')),
     ]);
