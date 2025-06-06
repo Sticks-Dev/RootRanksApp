@@ -18,3 +18,7 @@ button {
     background-color: #3a2f29;
     border-radius: 10px;
 }
+
+.bigger_button {
+    width: 10% !important;
+}

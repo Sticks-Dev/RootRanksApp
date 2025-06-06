@@ -50,4 +50,8 @@ export class Search implements OnInit {
 
         this.filteredServerList = tempList.slice(0, this.MAX_SERVER_DISPLAY_COUNT);
     }
+
+    public IsOnlyServer(server: ServerData): boolean {
+        return this.filteredServerList.includes(server) && this.filteredServerList.length <= 3;
+    }
 }

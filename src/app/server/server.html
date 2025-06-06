@@ -2,6 +2,7 @@
   type="button"
   [routerLink]="['/content', serverData.serverID]"
   [@expandOnHover]="hovered ? 'expanded' : 'initial'"
+  [ngClass]="{ 'bigger_button': searchComponent.IsOnlyServer(serverData) }"
   (mouseover)="hovered = true"
   (mouseout)="hovered = false"
 >
