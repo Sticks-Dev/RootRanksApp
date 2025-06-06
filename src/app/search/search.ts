@@ -28,7 +28,6 @@ export class Search implements OnInit {
 
     async SetAllServerData() {
         const url: string = 'https://raw.githubusercontent.com/Sticks-Dev/RootRanksApp/main/src/db.json';
-        console.log("Fetching server data from:", url);
         try {
             await fetch(url).then(async response => {
                 const json = await response.json();
@@ -45,7 +44,6 @@ export class Search implements OnInit {
             this.filteredServerList = Search.serverList.slice(0, this.MAX_SERVER_DISPLAY_COUNT);
             return;
         }
-
         const tempList: ServerData[] = Search.serverList.filter(server =>
             server.serverName.toLowerCase().includes(text.toLowerCase())
         );

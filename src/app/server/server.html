@@ -1,3 +1,10 @@
-<button type="button" [routerLink]="['/content', serverData.serverID]" [ngClass]="getButtonSizeClass()">
-    {{ serverData.serverName }}
+<button
+  type="button"
+  [routerLink]="['/content', serverData.serverID]"
+  [ngClass]="getButtonSizeClass()"
+  [@expandOnHover]="hovered ? 'expanded' : 'initial'"
+  (mouseover)="hovered = true"
+  (mouseout)="hovered = false"
+>
+  {{ serverData.serverName }}
 </button>
